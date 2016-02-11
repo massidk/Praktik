@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_more_on" tools:context="com.lora.bournonvillesflow.MoreOn"
+    android:background="@drawable/brevpapir">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        style="@style/BournonvilleButton"
+        android:text="@string/login_button_text"
+        android:id="@+id/GoTologin"
+        android:onClick="onClickGoLogin"
+        android:layout_above="@+id/goToProductsbtn"
+        android:layout_alignLeft="@+id/goToProductsbtn"
+        android:layout_alignStart="@+id/goToProductsbtn"
+        android:layout_marginBottom="130dp" />
+
+    <Button
+        style="@style/BournonvilleButton"
+        android:text="@string/goToProductsBtn"
+        android:id="@+id/goToProductsbtn"
+        android:onClick="onClickGoToProducts"
+        android:layout_below="@+id/GoTologin"
+        android:layout_marginTop="48dp" />
+
+    <Button
+        style="@style/BournonvilleButton"
+        android:text="@string/selfi_button"
+        android:id="@+id/selfi_button"
+        android:layout_below="@+id/goToProductsbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        />
+
+
+</RelativeLayout>
+
+</ScrollView>
