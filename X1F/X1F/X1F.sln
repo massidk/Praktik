@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "X1F.Droid", "X1F\X1F.Droid\X1F.Droid.csproj", "{F52AA68C-A4E0-4903-A89D-B28E5DA73155}"
 EndProject
@@ -13,7 +13,10 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "X1F", "X1F\X1F\X1F.shproj",
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		X1F\X1F\X1F.projitems*{646d6e91-99cc-474f-9648-3a9dd56138c2}*SharedItemsImports = 4
+		X1F\X1F\X1F.projitems*{f52aa68c-a4e0-4903-a89d-b28e5da73155}*SharedItemsImports = 4
 		X1F\X1F\X1F.projitems*{293f60f4-e1fd-4220-8757-3b7913b04292}*SharedItemsImports = 13
+		X1F\X1F\X1F.projitems*{b5e0d94e-8f59-4306-8405-1796f3047e7b}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
